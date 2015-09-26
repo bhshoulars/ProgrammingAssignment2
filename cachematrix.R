@@ -1,8 +1,8 @@
 ## Programming Assignment 2: Caching the Inverse of a Matrix
 ## The functions created for this assignment allow the user to create a special
-## that can cache its own inverse.  The user can then retrieve the inverse
-## from the cache if its available or calculate it and store it in the cache if
-## it is not.
+## matrix that can cache its own inverse.  The user can then retrieve the 
+## inverse from the cache if it is available or calculate it and store it in the
+## cache if it is not.
 
 ## makeCacheMatrix:  Takes as input a matrix and returns the special matrix
 ## that consists of a set of functions to set and get the matrix and its
@@ -10,7 +10,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
-  ## The inverse is initialized defined as NULL.
+  ## The inverse is initially defined as NULL.
   i <- NULL
   
   ## Sets the value of the matrix.
